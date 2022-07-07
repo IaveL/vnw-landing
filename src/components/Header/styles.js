@@ -6,12 +6,11 @@ export const Header = styled.header`
     background-image: url(${HeaderBackground});
     display: flex;
     justify-content: space-evenly;
-    border: solid red;
+    align-items: center;
     color: white;
-    height: 13vh;
+    height: 10vh;
 `
 export const Navbar = styled.ul`
-    border: solid yellow;
     width: 40vw;
     margin-left: 300px;
     align-items: center;
@@ -21,12 +20,13 @@ export const Navbar = styled.ul`
 `
 export const NavItem = styled.li`
      border-radius: 10px;
-     font-weight: lighter;
      width: 25%;
+     font-size: 14px;
      text-align: center;
      /* padding: 8px; */
      :hover {
         border: 2.1px solid #f2c582;
+        cursor: pointer;
     }
 `
 export const HeaderLogo = styled.img`

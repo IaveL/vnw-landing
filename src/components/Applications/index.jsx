@@ -15,10 +15,15 @@ const Applications = () => {
           <S.SmallCircles></S.SmallCircles>
           <S.SmallCircles></S.SmallCircles>
         </S.SmallCirclesWrapper>
-        <S.Ruler />
+        <S.Ruler></S.Ruler>
         <S.ApplyText>Inscreva-se no Vai Na Web!</S.ApplyText>
-        <h3>Inscrições de 02 a 21 de Agosto.</h3>
+        <p style={{fontWeight: "lighter"}}>Inscrições de 02 a 21 de Agosto.</p>
       </S.ApplicationInfo>
+
+      <S.ApplyLinkContainer>
+        <h3>Link para o formulário: &nbsp;</h3>
+        <S.ApplyLink>bit.ly/CarreiraVaiNaWeb</S.ApplyLink>
+        </S.ApplyLinkContainer> 
     </S.ApplicationsContainer>
   );
 };
