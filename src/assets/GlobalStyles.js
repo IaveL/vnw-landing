@@ -17,5 +17,8 @@ const GlobalStyle = createGlobalStyle`
     a:visited {
         color: inherit;
     }
+    a:link {
+        color: inherit;
+    }
 `;
 export default GlobalStyle;

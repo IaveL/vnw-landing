@@ -3,6 +3,7 @@ import GlobalStyle from "./assets/GlobalStyles";
 import Header from "./components/Header";
 import Applications from "./components/Applications";
 import About from "./components/About";
+import Courses from "./components/Courses";
 
 const App = () => {
   return (
@@ -11,6 +12,7 @@ const App = () => {
       <Header />
       <Applications />
       <About />
+      <Courses/>
     </>
   );
 };

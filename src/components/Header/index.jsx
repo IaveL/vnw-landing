@@ -8,7 +8,7 @@ const Header = () => {
       <nav>
         <S.Navbar>
           <S.NavItem><a href="#About">Sobre</a></S.NavItem>
-          <S.NavItem>Formação</S.NavItem>
+          <S.NavItem><a href="#Formacao">Formação</a></S.NavItem>
           <S.NavItem>Equipe</S.NavItem>
           <S.NavItem>Eventos</S.NavItem>
           <S.NavItem>Contatos</S.NavItem>

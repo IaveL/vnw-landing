@@ -14,8 +14,9 @@ export const AboutTextContainer = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: space-around; 
+    border: solid red;
     align-items: center;
-    width: 45%;
+    width: 40%;
     padding: 12px;
-    height: 70vh;
+    height: 45vh;
 `
