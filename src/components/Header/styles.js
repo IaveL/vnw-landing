@@ -21,10 +21,12 @@ export const Navbar = styled.ul`
 export const NavItem = styled.li`
      border-radius: 10px;
      width: 25%;
+     border: none;
      /* font-size: 14px; */
      text-align: center;
      /* padding: 8px; */
      :hover {
+        transition: border 1s ease-out ;
         border: 2.1px solid #f2c582;
         cursor: pointer;
     }
