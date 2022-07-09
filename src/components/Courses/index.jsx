@@ -9,21 +9,21 @@ export const CourseTitle = styled(SectionsHeader)`
   margin: 0 0 12px 0;
 `;
 export const CourseSectionTitle = styled(SectionsHeader)`
-    position: relative;
+    position: absolute;
     color: #0F2260;
-    left: 10vw;
-    top: 15vh;
+    left: 0;
+    top: 25%;
 
 `
 const Courses = () => {
   return (
     <S.CoursesSection id="Formacao">
-      <CourseSectionTitle>Formação</CourseSectionTitle>
       <S.ImgsWrapper>
         <S.ComputerImg src={ComputerImg} alt="" />
         <S.ComputerImg src={ComputerImg} alt="" />
       </S.ImgsWrapper>
       <S.CourseCardWrapper>
+      <CourseSectionTitle>Formação</CourseSectionTitle>
         <S.CourseCard>
           <CourseTitle>FRONT-END</CourseTitle>
           <p>

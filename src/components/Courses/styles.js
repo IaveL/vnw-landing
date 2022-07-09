@@ -1,32 +1,42 @@
 import styled from "styled-components";
 
 export const CoursesSection = styled.section`
-    padding-left: 60px;
-    min-height: 100vh;
-    display: flex;
-`
+  /* border: solid red; */
+  padding-left: 60px;
+  min-height: 100vh;
+  display: flex;
+  position: relative;
+`;
 export const CoursesImg = styled.img`
-    width: 35vw;
-`
+  width: 33vw;
+  position: absolute;
+  left: 65.5vw;
+  top: 25vh;
+`;
 export const CourseCard = styled.article`
-    margin: 50px 0 0 0;
-    width: 25vw;
-`
+  /* border: solid red; */
+  margin: 50px 0 0 0;
+  width: 25vw;
+`;
 export const CourseCardWrapper = styled.div`
-    padding: 15px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-`
+  /* border: solid blue; */
+  padding: 15px;
+  position: relative;
+  left: 13%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+`;
 export const ComputerImg = styled.img`
-    width: 5vw;
-`
+  width: 5vw;
+`;
 export const ImgsWrapper = styled.div`
-    /* border: solid yellow; */
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    top: 30vh;
-    justify-content: space-between;
-    height: 40vh;
-`
+  /* border: solid yellow; */
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 35%;
+  left: 10%;
+  justify-content: space-between;
+  height: 30vh;
+`;

@@ -12,13 +12,13 @@ export const ApplicationsContainer = styled.section`
   padding-left: 10%;
 `;
 export const Annoucement = styled.h1`
-  font-size: 35px;
+  font-size: 62px;
   color: #ffac2d;
   margin: 0 0 30px 0;
-  font-weight: bold;
+  font-weight: bolder;
 `;
 export const BigTextWrapper = styled.div`
-  width: 65%;
+  width: 90%;
 `;
 export const ApplicationInfo = styled.section`
   background-color: white;
@@ -49,11 +49,12 @@ export const Ruler = styled.div`
 `
 export const ApplyText = styled.h2`
     color: #00145D;
-    font-size: 1.5em;
+    font-size: 50px;
 `
 export const ApplyLinkContainer = styled.section`
     display: flex;
     width: 500px;
+    padding: 0.5em;
     align-items: center;
     color: #FED5B2;
 `

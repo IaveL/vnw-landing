@@ -4,6 +4,7 @@ export const About = styled.article`
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    padding: 3em;
     min-width: 100%;
     min-height: 100vh;
 `
@@ -14,9 +15,8 @@ export const AboutTextContainer = styled.section`
     display: flex;
     flex-direction: column;
     justify-content: space-around; 
-    border: solid red;
     align-items: center;
     width: 40%;
     padding: 12px;
-    height: 45vh;
+    height: 55vh;
 `

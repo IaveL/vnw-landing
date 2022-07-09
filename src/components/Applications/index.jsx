@@ -1,5 +1,11 @@
-import React from "react";
 import * as S from "./styles";
+import styled from "styled-components";
+import RegularText from "../NormalText/styles";
+
+  const ApplicationsPeriod = styled(RegularText)`
+      font-size: 1.5em;
+  `
+
 const Applications = () => {
   return (
     <S.ApplicationsContainer>
@@ -17,7 +23,7 @@ const Applications = () => {
         </S.SmallCirclesWrapper>
         <S.Ruler></S.Ruler>
         <S.ApplyText>Inscreva-se no Vai Na Web!</S.ApplyText>
-        <p style={{fontWeight: "lighter"}}>Inscrições de 02 a 21 de Agosto.</p>
+        <ApplicationsPeriod>Inscrições de 02 a 21 de Agosto.</ApplicationsPeriod>
       </S.ApplicationInfo>
 
       <S.ApplyLinkContainer>
