@@ -5,6 +5,7 @@ import Applications from "./components/Applications";
 import About from "./components/About";
 import Courses from "./components/Courses";
 import VnwTeam from "./components/VnwTeam";
+import Events from "./components/Events";
 
 const App = () => {
   return (
@@ -13,8 +14,9 @@ const App = () => {
       <Header />
       <Applications />
       <About />
-      <Courses/>
-      <VnwTeam/>
+      <Courses />
+      <VnwTeam />
+      <Events />
     </>
   );
 };

@@ -11,7 +11,7 @@ export const CourseTitle = styled(SectionsHeader)`
 export const CourseSectionTitle = styled(SectionsHeader)`
     position: absolute;
     color: #0F2260;
-    left: 0;
+    left: -20%;
     top: 25%;
 
 `

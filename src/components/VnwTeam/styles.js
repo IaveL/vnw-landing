@@ -1,7 +1,9 @@
 import styled from "styled-components";
 import Lupa from "../../assets/imgs/lupa.svg"
 export const TeamContainerSection = styled.section`
-    padding: 0 0 0 10%;
+    padding: 0 0 0 13%;
+    display: flex;
+    flex-direction: column;
 `
 export const SearchBoxSection = styled.section`
     display: flex;

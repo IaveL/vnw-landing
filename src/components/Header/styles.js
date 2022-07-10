@@ -33,7 +33,8 @@ export const NavItem = styled.li`
 `
 export const HeaderLogo = styled.img`
     width: 70px;
+    z-index: 40;
     position: fixed;
-    left: 3%;
+    left: 2%;
     top: 2%;
 `

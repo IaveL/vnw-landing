@@ -2,6 +2,7 @@ import styled from "styled-components";
 import ApplyBackground from "../../assets/imgs/inscricoes-background.png";
 export const ApplicationsContainer = styled.section`
   min-height: 92vh;
+  z-index: 0;
   background-image: url(${ApplyBackground});
   background-size: cover;
   background-position: center;
@@ -9,7 +10,7 @@ export const ApplicationsContainer = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 10%;
+  position: relative;
 `;
 export const Annoucement = styled.h1`
   font-size: 62px;
@@ -18,6 +19,9 @@ export const Annoucement = styled.h1`
   font-weight: bolder;
 `;
 export const BigTextWrapper = styled.div`
+  position: absolute;
+  top: 8%;
+  left: 8%;
   width: 90%;
 `;
 export const ApplicationInfo = styled.section`
@@ -25,6 +29,8 @@ export const ApplicationInfo = styled.section`
   width: 50%;
   display: flex;
   height: 25vh;
+  position: absolute;
+  left: 8%;
   flex-direction: column;
   justify-content: space-evenly;
   border-radius: 12px;
@@ -52,6 +58,9 @@ export const ApplyText = styled.h2`
     font-size: 50px;
 `
 export const ApplyLinkContainer = styled.section`
+    position: absolute;
+    left: 8%;
+    top: 63%;
     display: flex;
     width: 500px;
     padding: 0.5em;

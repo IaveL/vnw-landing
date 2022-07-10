@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 export const CoursesSection = styled.section`
-  /* border: solid red; */
   padding-left: 60px;
   min-height: 100vh;
   display: flex;
@@ -14,12 +13,10 @@ export const CoursesImg = styled.img`
   top: 25vh;
 `;
 export const CourseCard = styled.article`
-  /* border: solid red; */
   margin: 50px 0 0 0;
   width: 25vw;
 `;
 export const CourseCardWrapper = styled.div`
-  /* border: solid blue; */
   padding: 15px;
   position: relative;
   left: 13%;
@@ -31,7 +28,6 @@ export const ComputerImg = styled.img`
   width: 5vw;
 `;
 export const ImgsWrapper = styled.div`
-  /* border: solid yellow; */
   position: absolute;
   display: flex;
   flex-direction: column;
