@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const TeamCard = styled.article`
     width: 23%;
-    height: 30vh;
+    height: fit-content;
     display: flex;
     position: relative;
     margin: 0 10px 10px 0;
@@ -20,7 +20,7 @@ export const TeamMemberImg = styled.img`
 
 export const TeamMemberName = styled.h3`
     position: absolute;
-    background-color: rgba(70,130,180, 0.85);
+    background-color: rgba(70,130,180, 0.75);
     top: 80%;
     z-index: 1;
 `

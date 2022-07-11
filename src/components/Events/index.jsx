@@ -12,7 +12,7 @@ const TechGirlsHeader = styled(SectionsHeader)`
 
 const Events = () => {
   return (
-    <S.TechGirlsSection>
+    <S.TechGirlsSection id="Eventos">
         <TechGirlsHeader>Eventos</TechGirlsHeader>
       <figure>
         <S.TechGirls src={TechGirls} alt="" />

@@ -6,7 +6,7 @@ import About from "./components/About";
 import Courses from "./components/Courses";
 import VnwTeam from "./components/VnwTeam";
 import Events from "./components/Events";
-
+import Footer from "./components/Footer";
 const App = () => {
   return (
     <>
@@ -17,6 +17,7 @@ const App = () => {
       <Courses />
       <VnwTeam />
       <Events />
+      <Footer/>
     </>
   );
 };

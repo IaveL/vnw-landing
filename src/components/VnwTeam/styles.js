@@ -19,7 +19,6 @@ export const TeamMembersSection = styled.section`
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
-    /* padding-left: 5%; */
 `
 export const SearchInput = styled.input`
     background-color: inherit;
