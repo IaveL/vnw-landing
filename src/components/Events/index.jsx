@@ -6,8 +6,8 @@ import * as S from "./styles"
 
 const TechGirlsHeader = styled(SectionsHeader)`
     position: absolute;
-    top: 8%;
-    left: 13%;
+    top: 25%;
+    left: 10%;
 `
 
 const Events = () => {

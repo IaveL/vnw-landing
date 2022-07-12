@@ -5,19 +5,33 @@ export const Footer = styled.footer`
     color: #FFFFFF;
     background-image: url(${FooterBackground});
     padding: 0 0 0 12%;
-    height: 45vh;
+    height: 40vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
+    @media(max-width: 1440px){
+        h5{
+            font-size: 1.2em;
+        }
+    }
+    @media(max-width: 425px){
+        width: 100vw;
+}
 `
 export const SocialMediaWrapper = styled.section`
     height: 45%;
     justify-content: space-between;
     width: 40%;
     display: flex;
+    @media(max-width: 1024px){
+         width: 65%;   
+        }
+        @media(max-width: 425px){
+            width: 100%;
+}
 `
 export const HeadingWrapper = styled.div`
     width: 33%;
@@ -26,4 +40,7 @@ export const HeadingWrapper = styled.div`
 `
 export const SocialMediaImg = styled.img`
     width: 3vw;
+    @media(max-width: 425px){
+        width: 8%;
+}
 `

@@ -4,6 +4,7 @@ export const TeamContainerSection = styled.section`
     padding: 0 0 0 13%;
     display: flex;
     flex-direction: column;
+
 `
 export const SearchBoxSection = styled.section`
     display: flex;
@@ -13,12 +14,19 @@ export const SearchBoxSection = styled.section`
     width: 71vw;
     background-color: #0F2260;
     height: 15vh;
+    @media(max-width: 1024px){
+        width: 80vw;
+    }
+
 `
 export const TeamMembersSection = styled.section`
     width: 75vw;
     min-height: 100vh;
     display: flex;
     flex-wrap: wrap;
+    @media(max-width: 1024px){
+        width: 85vw;
+    }
 `
 export const SearchInput = styled.input`
     background-color: inherit;

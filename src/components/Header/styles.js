@@ -9,6 +9,9 @@ export const Header = styled.header`
     align-items: center;
     color: white;
     height: 10vh;
+    @media(max-width: 768px){
+        
+    }
 `
 export const HeaderLogo = styled.img`
     width: 70px;
