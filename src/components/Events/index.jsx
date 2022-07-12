@@ -6,8 +6,23 @@ import * as S from "./styles"
 
 const TechGirlsHeader = styled(SectionsHeader)`
     position: absolute;
-    top: 25%;
+    top: 10%;
     left: 10%;
+    @media(max-width: 1024px){
+     top: 20%; 
+    }
+    @media(max-width: 1024px){
+     top: 29%; 
+    }
+    @media(max-width: 768px){
+     top: 30%; 
+    }
+    @media(max-width: 425px){
+     top: 25%; 
+    }
+    @media(max-width: 1024px){
+     top: 20%; 
+    }
 `
 
 const Events = () => {
