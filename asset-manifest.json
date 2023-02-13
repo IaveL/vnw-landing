@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.js": "/vnw-landing/static/js/main.5fe26f50.js",
+    "static/media/inscricoes-background.png": "/vnw-landing/static/media/inscricoes-background.e650febf4e41d7f9b140.png",
+    "static/media/techgirls.png": "/vnw-landing/static/media/techgirls.d2093c067e4e6dbb6e7d.png",
+    "static/media/footer-background.png": "/vnw-landing/static/media/footer-background.232df57cad60c9145b0c.png",
+    "static/media/formacoes.png": "/vnw-landing/static/media/formacoes.097ccb5a70e3fc260405.png",
+    "static/media/marina-t.jpg": "/vnw-landing/static/media/marina-t.cc1e445aebc48efdf0d4.jpg",
+    "static/media/aline-n.jpg": "/vnw-landing/static/media/aline-n.633338c3efc70a21fbf1.jpg",
+    "static/media/marlon.jpg": "/vnw-landing/static/media/marlon.0503105e63e0df8fe52a.jpg",
+    "static/media/thais-b.jpg": "/vnw-landing/static/media/thais-b.8544b43fa26970b114b6.jpg",
+    "static/media/mariana-c.jpg": "/vnw-landing/static/media/mariana-c.2c91308d0ede3d375900.jpg",
+    "static/media/paula-misan.jpg": "/vnw-landing/static/media/paula-misan.4322e19f20e368b0b1da.jpg",
+    "static/media/hugo-s.jpg": "/vnw-landing/static/media/hugo-s.25f828780d33e2af921f.jpg",
+    "static/media/priscila-t.jpg": "/vnw-landing/static/media/priscila-t.39ad350d43c516709f82.jpg",
+    "static/media/cris.jpg": "/vnw-landing/static/media/cris.4b00306e3b81fa24926c.jpg",
+    "static/media/karynne.jpg": "/vnw-landing/static/media/karynne.94d241ad0ddad207bef2.jpg",
+    "static/media/luzia-m.jpg": "/vnw-landing/static/media/luzia-m.45387f86537415d28fb5.jpg",
+    "static/media/andrea-m.jpg": "/vnw-landing/static/media/andrea-m.c3e7782cce8ad59a8f24.jpg",
+    "static/media/karla-m.jpg": "/vnw-landing/static/media/karla-m.5fde0b6a676d32035652.jpg",
+    "static/media/aline-f.jpg": "/vnw-landing/static/media/aline-f.5df58ea93b667b34e098.jpg",
+    "static/media/dimitri.jpg": "/vnw-landing/static/media/dimitri.6953dde0c922f16682fc.jpg",
+    "static/media/logo-small-header.svg": "/vnw-landing/static/media/logo-small-header.db0dcd75e4c84d1e2f96731cde2bc818.svg",
+    "static/media/vnw-logo.svg": "/vnw-landing/static/media/vnw-logo.321153bc2595bbe5e197fed5c36d8cd5.svg",
+    "static/media/technologies-svg.svg": "/vnw-landing/static/media/technologies-svg.72512604d9354a41400585211068bbed.svg",
+    "static/media/insta.svg": "/vnw-landing/static/media/insta.4b561234b4a3423b2ad57455f17ecc20.svg",
+    "static/media/linkrdin.svg": "/vnw-landing/static/media/linkrdin.8a97c9f659da332548e174a9b8406ae9.svg",
+    "index.html": "/vnw-landing/index.html",
+    "static/media/youtub.svg": "/vnw-landing/static/media/youtub.ffe6fc5bd9c18748d904fa1ab7893587.svg",
+    "static/media/facebook.svg": "/vnw-landing/static/media/facebook.0b7db8c84a0d5379015a87bcf66a23a2.svg",
+    "static/media/medium.svg": "/vnw-landing/static/media/medium.537dc853fca36f9ac3aedc9aa518d03b.svg",
+    "static/media/lupa.svg": "/vnw-landing/static/media/lupa.c18395a6e743f9f1d6ade28c6456503f.svg",
+    "main.5fe26f50.js.map": "/vnw-landing/static/js/main.5fe26f50.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.5fe26f50.js"
+  ]
+}
